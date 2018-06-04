@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54B7463842F7708E19BE0EC3 /* libPods-LSTJavaScriptCoreTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 885159CECD444D20BD2B8A4F /* libPods-LSTJavaScriptCoreTestUITests.a */; };
+		5CF385F31B7C2BB026F04543 /* libPods-LSTJavaScriptCoreTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 230E7B253999650E5EEE5ADA /* libPods-LSTJavaScriptCoreTest.a */; };
+		7A5062A520A53B1F001426AD /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 7A5062A420A53B1F001426AD /* test.html */; };
+		7A5723F520A27F8700127CFB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A5723F420A27F8700127CFB /* ViewController.xib */; };
+		7A5723F920A2864900127CFB /* LSTWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5723F720A2864900127CFB /* LSTWKWebView.m */; };
+		7A5723FD20A29D5D00127CFB /* WKDelegateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5723FC20A29D5D00127CFB /* WKDelegateController.m */; };
+		7A5BA98820A3D4D7007FEB04 /* example.html in Resources */ = {isa = PBXBuildFile; fileRef = 7A5BA98720A3D4D7007FEB04 /* example.html */; };
+		7ACFFC2B20A01C9E00886DC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACFFC2A20A01C9E00886DC8 /* AppDelegate.m */; };
+		7ACFFC2E20A01C9E00886DC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACFFC2D20A01C9E00886DC8 /* ViewController.m */; };
+		7ACFFC3120A01C9E00886DC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACFFC2F20A01C9E00886DC8 /* Main.storyboard */; };
+		7ACFFC3420A01C9E00886DC8 /* LSTJavaScriptCoreTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7ACFFC3220A01C9E00886DC8 /* LSTJavaScriptCoreTest.xcdatamodeld */; };
+		7ACFFC3620A01CA000886DC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACFFC3520A01CA000886DC8 /* Assets.xcassets */; };
+		7ACFFC3920A01CA000886DC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACFFC3720A01CA000886DC8 /* LaunchScreen.storyboard */; };
+		7ACFFC3C20A01CA000886DC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACFFC3B20A01CA000886DC8 /* main.m */; };
+		7ACFFC4620A01CA000886DC8 /* LSTJavaScriptCoreTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACFFC4520A01CA000886DC8 /* LSTJavaScriptCoreTestTests.m */; };
+		7ACFFC5120A01CA000886DC8 /* LSTJavaScriptCoreTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACFFC5020A01CA000886DC8 /* LSTJavaScriptCoreTestUITests.m */; };
+		7AE05AFE20A418F900A8573C /* LSTJSTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE05AFC20A418F900A8573C /* LSTJSTestViewController.m */; };
+		7AE05AFF20A418F900A8573C /* LSTJSTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AE05AFD20A418F900A8573C /* LSTJSTestViewController.xib */; };
+		7AE6FCF020A2BFEC009CA620 /* LSTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6FCEE20A2BFEC009CA620 /* LSTViewController.m */; };
+		7AE6FCF120A2BFEC009CA620 /* LSTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AE6FCEF20A2BFEC009CA620 /* LSTViewController.xib */; };
+		7AE6FCF720A2E509009CA620 /* s.html in Resources */ = {isa = PBXBuildFile; fileRef = 7AE6FCF620A2E509009CA620 /* s.html */; };
+		7AE6FCFA20A2F350009CA620 /* WebViewJSBridgeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6FCF920A2F350009CA620 /* WebViewJSBridgeVC.m */; };
+		7AF2C60A20A175DC0008A2DA /* JSCallOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2C60920A175DC0008A2DA /* JSCallOC.html */; };
+		7AF2C60E20A1762E0008A2DA /* LSTJSCallOCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2C60C20A1762E0008A2DA /* LSTJSCallOCVC.m */; };
+		7AF2C60F20A1762E0008A2DA /* LSTJSCallOCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2C60D20A1762E0008A2DA /* LSTJSCallOCVC.xib */; };
+		7AF2C61220A182BE0008A2DA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2C61120A182BE0008A2DA /* SecondViewController.m */; };
+		7AF2C62320A18A920008A2DA /* LSTOCCallJSVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF2C62120A18A920008A2DA /* LSTOCCallJSVC.m */; };
+		7AF2C62420A18A920008A2DA /* LSTOCCallJSVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2C62220A18A920008A2DA /* LSTOCCallJSVC.xib */; };
+		7AF2C62620A18BE10008A2DA /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2C62520A18BE10008A2DA /* test.js */; };
+		D51DE33B5AF2B24ABC716CD0 /* libPods-LSTJavaScriptCoreTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B755F75E02785A5198F579 /* libPods-LSTJavaScriptCoreTestTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ACFFC4220A01CA000886DC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ACFFC1E20A01C9E00886DC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ACFFC2520A01C9E00886DC8;
+			remoteInfo = LSTJavaScriptCoreTest;
+		};
+		7ACFFC4D20A01CA000886DC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ACFFC1E20A01C9E00886DC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ACFFC2520A01C9E00886DC8;
+			remoteInfo = LSTJavaScriptCoreTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		230E7B253999650E5EEE5ADA /* libPods-LSTJavaScriptCoreTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSTJavaScriptCoreTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B10EDF09E8139B36873A74E /* Pods-LSTJavaScriptCoreTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTJavaScriptCoreTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSTJavaScriptCoreTestUITests/Pods-LSTJavaScriptCoreTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		347A2EF453F66B26D2AB530B /* Pods-LSTJavaScriptCoreTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTJavaScriptCoreTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSTJavaScriptCoreTest/Pods-LSTJavaScriptCoreTest.debug.xcconfig"; sourceTree = "<group>"; };
+		3C31B24CA2B31110431FC260 /* Pods-LSTJavaScriptCoreTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTJavaScriptCoreTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSTJavaScriptCoreTestTests/Pods-LSTJavaScriptCoreTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4547F7FDA156BE009EE95018 /* Pods-LSTJavaScriptCoreTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTJavaScriptCoreTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSTJavaScriptCoreTestUITests/Pods-LSTJavaScriptCoreTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A5062A420A53B1F001426AD /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		7A5723F420A27F8700127CFB /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		7A5723F620A2864900127CFB /* LSTWKWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSTWKWebView.h; sourceTree = "<group>"; };
+		7A5723F720A2864900127CFB /* LSTWKWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTWKWebView.m; sourceTree = "<group>"; };
+		7A5723FB20A29D5D00127CFB /* WKDelegateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKDelegateController.h; sourceTree = "<group>"; };
+		7A5723FC20A29D5D00127CFB /* WKDelegateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKDelegateController.m; sourceTree = "<group>"; };
+		7A5BA98720A3D4D7007FEB04 /* example.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = example.html; sourceTree = "<group>"; };
+		7ACFFC2620A01C9E00886DC8 /* LSTJavaScriptCoreTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSTJavaScriptCoreTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACFFC2920A01C9E00886DC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7ACFFC2A20A01C9E00886DC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7ACFFC2C20A01C9E00886DC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7ACFFC2D20A01C9E00886DC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7ACFFC3020A01C9E00886DC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ACFFC3320A01C9E00886DC8 /* LSTJavaScriptCoreTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LSTJavaScriptCoreTest.xcdatamodel; sourceTree = "<group>"; };
+		7ACFFC3520A01CA000886DC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ACFFC3820A01CA000886DC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7ACFFC3A20A01CA000886DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ACFFC3B20A01CA000886DC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ACFFC4120A01CA000886DC8 /* LSTJavaScriptCoreTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSTJavaScriptCoreTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACFFC4520A01CA000886DC8 /* LSTJavaScriptCoreTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTJavaScriptCoreTestTests.m; sourceTree = "<group>"; };
+		7ACFFC4720A01CA000886DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ACFFC4C20A01CA000886DC8 /* LSTJavaScriptCoreTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSTJavaScriptCoreTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACFFC5020A01CA000886DC8 /* LSTJavaScriptCoreTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTJavaScriptCoreTestUITests.m; sourceTree = "<group>"; };
+		7ACFFC5220A01CA000886DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE05AFB20A418F900A8573C /* LSTJSTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSTJSTestViewController.h; sourceTree = "<group>"; };
+		7AE05AFC20A418F900A8573C /* LSTJSTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTJSTestViewController.m; sourceTree = "<group>"; };
+		7AE05AFD20A418F900A8573C /* LSTJSTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LSTJSTestViewController.xib; sourceTree = "<group>"; };
+		7AE6FCED20A2BFEC009CA620 /* LSTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSTViewController.h; sourceTree = "<group>"; };
+		7AE6FCEE20A2BFEC009CA620 /* LSTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTViewController.m; sourceTree = "<group>"; };
+		7AE6FCEF20A2BFEC009CA620 /* LSTViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LSTViewController.xib; sourceTree = "<group>"; };
+		7AE6FCF620A2E509009CA620 /* s.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = s.html; sourceTree = "<group>"; };
+		7AE6FCF820A2F350009CA620 /* WebViewJSBridgeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewJSBridgeVC.h; sourceTree = "<group>"; };
+		7AE6FCF920A2F350009CA620 /* WebViewJSBridgeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewJSBridgeVC.m; sourceTree = "<group>"; };
+		7AF2C60920A175DC0008A2DA /* JSCallOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSCallOC.html; sourceTree = "<group>"; };
+		7AF2C60B20A1762E0008A2DA /* LSTJSCallOCVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSTJSCallOCVC.h; sourceTree = "<group>"; };
+		7AF2C60C20A1762E0008A2DA /* LSTJSCallOCVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTJSCallOCVC.m; sourceTree = "<group>"; };
+		7AF2C60D20A1762E0008A2DA /* LSTJSCallOCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LSTJSCallOCVC.xib; sourceTree = "<group>"; };
+		7AF2C61020A182BE0008A2DA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7AF2C61120A182BE0008A2DA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7AF2C62020A18A920008A2DA /* LSTOCCallJSVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSTOCCallJSVC.h; sourceTree = "<group>"; };
+		7AF2C62120A18A920008A2DA /* LSTOCCallJSVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTOCCallJSVC.m; sourceTree = "<group>"; };
+		7AF2C62220A18A920008A2DA /* LSTOCCallJSVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LSTOCCallJSVC.xib; sourceTree = "<group>"; };
+		7AF2C62520A18BE10008A2DA /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
+		7DF5ED8AD27885AEECE26BEF /* Pods-LSTJavaScriptCoreTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTJavaScriptCoreTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSTJavaScriptCoreTestTests/Pods-LSTJavaScriptCoreTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		885159CECD444D20BD2B8A4F /* libPods-LSTJavaScriptCoreTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSTJavaScriptCoreTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3FFE716CE4B930AFD31E68 /* Pods-LSTJavaScriptCoreTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTJavaScriptCoreTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSTJavaScriptCoreTest/Pods-LSTJavaScriptCoreTest.release.xcconfig"; sourceTree = "<group>"; };
+		E3B755F75E02785A5198F579 /* libPods-LSTJavaScriptCoreTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSTJavaScriptCoreTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ACFFC2320A01C9E00886DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CF385F31B7C2BB026F04543 /* libPods-LSTJavaScriptCoreTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACFFC3E20A01CA000886DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51DE33B5AF2B24ABC716CD0 /* libPods-LSTJavaScriptCoreTestTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACFFC4920A01CA000886DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B7463842F7708E19BE0EC3 /* libPods-LSTJavaScriptCoreTestUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ACFFC1D20A01C9E00886DC8 = {
+			isa = PBXGroup;
+			children = (
+				7ACFFC2820A01C9E00886DC8 /* LSTJavaScriptCoreTest */,
+				7ACFFC4420A01CA000886DC8 /* LSTJavaScriptCoreTestTests */,
+				7ACFFC4F20A01CA000886DC8 /* LSTJavaScriptCoreTestUITests */,
+				7ACFFC2720A01C9E00886DC8 /* Products */,
+				CAF195676B8719852A56ECCB /* Pods */,
+				7EE5C2D558AFCDAF199F0CA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7ACFFC2720A01C9E00886DC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ACFFC2620A01C9E00886DC8 /* LSTJavaScriptCoreTest.app */,
+				7ACFFC4120A01CA000886DC8 /* LSTJavaScriptCoreTestTests.xctest */,
+				7ACFFC4C20A01CA000886DC8 /* LSTJavaScriptCoreTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ACFFC2820A01C9E00886DC8 /* LSTJavaScriptCoreTest */ = {
+			isa = PBXGroup;
+			children = (
+				7ACFFC2920A01C9E00886DC8 /* AppDelegate.h */,
+				7ACFFC2A20A01C9E00886DC8 /* AppDelegate.m */,
+				7ACFFC2C20A01C9E00886DC8 /* ViewController.h */,
+				7ACFFC2D20A01C9E00886DC8 /* ViewController.m */,
+				7A5723F420A27F8700127CFB /* ViewController.xib */,
+				7AF2C60B20A1762E0008A2DA /* LSTJSCallOCVC.h */,
+				7AF2C60C20A1762E0008A2DA /* LSTJSCallOCVC.m */,
+				7AF2C60D20A1762E0008A2DA /* LSTJSCallOCVC.xib */,
+				7AF2C60920A175DC0008A2DA /* JSCallOC.html */,
+				7AF2C61020A182BE0008A2DA /* SecondViewController.h */,
+				7AF2C61120A182BE0008A2DA /* SecondViewController.m */,
+				7AF2C62020A18A920008A2DA /* LSTOCCallJSVC.h */,
+				7AF2C62120A18A920008A2DA /* LSTOCCallJSVC.m */,
+				7AF2C62220A18A920008A2DA /* LSTOCCallJSVC.xib */,
+				7A5723F620A2864900127CFB /* LSTWKWebView.h */,
+				7A5723F720A2864900127CFB /* LSTWKWebView.m */,
+				7A5723FB20A29D5D00127CFB /* WKDelegateController.h */,
+				7A5723FC20A29D5D00127CFB /* WKDelegateController.m */,
+				7AE6FCF620A2E509009CA620 /* s.html */,
+				7AE6FCED20A2BFEC009CA620 /* LSTViewController.h */,
+				7AE6FCEE20A2BFEC009CA620 /* LSTViewController.m */,
+				7AE6FCEF20A2BFEC009CA620 /* LSTViewController.xib */,
+				7AE6FCF820A2F350009CA620 /* WebViewJSBridgeVC.h */,
+				7AE6FCF920A2F350009CA620 /* WebViewJSBridgeVC.m */,
+				7A5BA98720A3D4D7007FEB04 /* example.html */,
+				7ACFFC2F20A01C9E00886DC8 /* Main.storyboard */,
+				7A5062A420A53B1F001426AD /* test.html */,
+				7AF2C62520A18BE10008A2DA /* test.js */,
+				7AE05AFB20A418F900A8573C /* LSTJSTestViewController.h */,
+				7AE05AFC20A418F900A8573C /* LSTJSTestViewController.m */,
+				7AE05AFD20A418F900A8573C /* LSTJSTestViewController.xib */,
+				7ACFFC3520A01CA000886DC8 /* Assets.xcassets */,
+				7ACFFC3720A01CA000886DC8 /* LaunchScreen.storyboard */,
+				7ACFFC3A20A01CA000886DC8 /* Info.plist */,
+				7ACFFC3B20A01CA000886DC8 /* main.m */,
+				7ACFFC3220A01C9E00886DC8 /* LSTJavaScriptCoreTest.xcdatamodeld */,
+			);
+			path = LSTJavaScriptCoreTest;
+			sourceTree = "<group>";
+		};
+		7ACFFC4420A01CA000886DC8 /* LSTJavaScriptCoreTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7ACFFC4520A01CA000886DC8 /* LSTJavaScriptCoreTestTests.m */,
+				7ACFFC4720A01CA000886DC8 /* Info.plist */,
+			);
+			path = LSTJavaScriptCoreTestTests;
+			sourceTree = "<group>";
+		};
+		7ACFFC4F20A01CA000886DC8 /* LSTJavaScriptCoreTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7ACFFC5020A01CA000886DC8 /* LSTJavaScriptCoreTestUITests.m */,
+				7ACFFC5220A01CA000886DC8 /* Info.plist */,
+			);
+			path = LSTJavaScriptCoreTestUITests;
+			sourceTree = "<group>";
+		};
+		7EE5C2D558AFCDAF199F0CA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				230E7B253999650E5EEE5ADA /* libPods-LSTJavaScriptCoreTest.a */,
+				E3B755F75E02785A5198F579 /* libPods-LSTJavaScriptCoreTestTests.a */,
+				885159CECD444D20BD2B8A4F /* libPods-LSTJavaScriptCoreTestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAF195676B8719852A56ECCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				347A2EF453F66B26D2AB530B /* Pods-LSTJavaScriptCoreTest.debug.xcconfig */,
+				DD3FFE716CE4B930AFD31E68 /* Pods-LSTJavaScriptCoreTest.release.xcconfig */,
+				3C31B24CA2B31110431FC260 /* Pods-LSTJavaScriptCoreTestTests.debug.xcconfig */,
+				7DF5ED8AD27885AEECE26BEF /* Pods-LSTJavaScriptCoreTestTests.release.xcconfig */,
+				2B10EDF09E8139B36873A74E /* Pods-LSTJavaScriptCoreTestUITests.debug.xcconfig */,
+				4547F7FDA156BE009EE95018 /* Pods-LSTJavaScriptCoreTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ACFFC2520A01C9E00886DC8 /* LSTJavaScriptCoreTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ACFFC5520A01CA000886DC8 /* Build configuration list for PBXNativeTarget "LSTJavaScriptCoreTest" */;
+			buildPhases = (
+				08D9F20B88B5AEBEF55ABD6C /* [CP] Check Pods Manifest.lock */,
+				7ACFFC2220A01C9E00886DC8 /* Sources */,
+				7ACFFC2320A01C9E00886DC8 /* Frameworks */,
+				7ACFFC2420A01C9E00886DC8 /* Resources */,
+				6EE9FE9BB487BBBA23BF1069 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSTJavaScriptCoreTest;
+			productName = LSTJavaScriptCoreTest;
+			productReference = 7ACFFC2620A01C9E00886DC8 /* LSTJavaScriptCoreTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ACFFC4020A01CA000886DC8 /* LSTJavaScriptCoreTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ACFFC5820A01CA000886DC8 /* Build configuration list for PBXNativeTarget "LSTJavaScriptCoreTestTests" */;
+			buildPhases = (
+				59C91E83E85BB01C4044B6C1 /* [CP] Check Pods Manifest.lock */,
+				7ACFFC3D20A01CA000886DC8 /* Sources */,
+				7ACFFC3E20A01CA000886DC8 /* Frameworks */,
+				7ACFFC3F20A01CA000886DC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ACFFC4320A01CA000886DC8 /* PBXTargetDependency */,
+			);
+			name = LSTJavaScriptCoreTestTests;
+			productName = LSTJavaScriptCoreTestTests;
+			productReference = 7ACFFC4120A01CA000886DC8 /* LSTJavaScriptCoreTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7ACFFC4B20A01CA000886DC8 /* LSTJavaScriptCoreTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ACFFC5B20A01CA000886DC8 /* Build configuration list for PBXNativeTarget "LSTJavaScriptCoreTestUITests" */;
+			buildPhases = (
+				9005BE269CA867C638CCC91C /* [CP] Check Pods Manifest.lock */,
+				7ACFFC4820A01CA000886DC8 /* Sources */,
+				7ACFFC4920A01CA000886DC8 /* Frameworks */,
+				7ACFFC4A20A01CA000886DC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ACFFC4E20A01CA000886DC8 /* PBXTargetDependency */,
+			);
+			name = LSTJavaScriptCoreTestUITests;
+			productName = LSTJavaScriptCoreTestUITests;
+			productReference = 7ACFFC4C20A01CA000886DC8 /* LSTJavaScriptCoreTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ACFFC1E20A01C9E00886DC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "兰科guagua";
+				TargetAttributes = {
+					7ACFFC2520A01C9E00886DC8 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					7ACFFC4020A01CA000886DC8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 7ACFFC2520A01C9E00886DC8;
+					};
+					7ACFFC4B20A01CA000886DC8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 7ACFFC2520A01C9E00886DC8;
+					};
+				};
+			};
+			buildConfigurationList = 7ACFFC2120A01C9E00886DC8 /* Build configuration list for PBXProject "LSTJavaScriptCoreTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ACFFC1D20A01C9E00886DC8;
+			productRefGroup = 7ACFFC2720A01C9E00886DC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ACFFC2520A01C9E00886DC8 /* LSTJavaScriptCoreTest */,
+				7ACFFC4020A01CA000886DC8 /* LSTJavaScriptCoreTestTests */,
+				7ACFFC4B20A01CA000886DC8 /* LSTJavaScriptCoreTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ACFFC2420A01C9E00886DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5BA98820A3D4D7007FEB04 /* example.html in Resources */,
+				7AE6FCF720A2E509009CA620 /* s.html in Resources */,
+				7ACFFC3920A01CA000886DC8 /* LaunchScreen.storyboard in Resources */,
+				7ACFFC3620A01CA000886DC8 /* Assets.xcassets in Resources */,
+				7A5723F520A27F8700127CFB /* ViewController.xib in Resources */,
+				7AF2C60F20A1762E0008A2DA /* LSTJSCallOCVC.xib in Resources */,
+				7AF2C62420A18A920008A2DA /* LSTOCCallJSVC.xib in Resources */,
+				7AE05AFF20A418F900A8573C /* LSTJSTestViewController.xib in Resources */,
+				7ACFFC3120A01C9E00886DC8 /* Main.storyboard in Resources */,
+				7AF2C62620A18BE10008A2DA /* test.js in Resources */,
+				7AF2C60A20A175DC0008A2DA /* JSCallOC.html in Resources */,
+				7A5062A520A53B1F001426AD /* test.html in Resources */,
+				7AE6FCF120A2BFEC009CA620 /* LSTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACFFC3F20A01CA000886DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACFFC4A20A01CA000886DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08D9F20B88B5AEBEF55ABD6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LSTJavaScriptCoreTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59C91E83E85BB01C4044B6C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LSTJavaScriptCoreTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EE9FE9BB487BBBA23BF1069 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LSTJavaScriptCoreTest/Pods-LSTJavaScriptCoreTest-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSTJavaScriptCoreTest/Pods-LSTJavaScriptCoreTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9005BE269CA867C638CCC91C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LSTJavaScriptCoreTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ACFFC2220A01C9E00886DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE6FCF020A2BFEC009CA620 /* LSTViewController.m in Sources */,
+				7A5723FD20A29D5D00127CFB /* WKDelegateController.m in Sources */,
+				7ACFFC3420A01C9E00886DC8 /* LSTJavaScriptCoreTest.xcdatamodeld in Sources */,
+				7ACFFC2E20A01C9E00886DC8 /* ViewController.m in Sources */,
+				7AE6FCFA20A2F350009CA620 /* WebViewJSBridgeVC.m in Sources */,
+				7ACFFC3C20A01CA000886DC8 /* main.m in Sources */,
+				7ACFFC2B20A01C9E00886DC8 /* AppDelegate.m in Sources */,
+				7AE05AFE20A418F900A8573C /* LSTJSTestViewController.m in Sources */,
+				7AF2C61220A182BE0008A2DA /* SecondViewController.m in Sources */,
+				7AF2C60E20A1762E0008A2DA /* LSTJSCallOCVC.m in Sources */,
+				7AF2C62320A18A920008A2DA /* LSTOCCallJSVC.m in Sources */,
+				7A5723F920A2864900127CFB /* LSTWKWebView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACFFC3D20A01CA000886DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACFFC4620A01CA000886DC8 /* LSTJavaScriptCoreTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ACFFC4820A01CA000886DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ACFFC5120A01CA000886DC8 /* LSTJavaScriptCoreTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ACFFC4320A01CA000886DC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ACFFC2520A01C9E00886DC8 /* LSTJavaScriptCoreTest */;
+			targetProxy = 7ACFFC4220A01CA000886DC8 /* PBXContainerItemProxy */;
+		};
+		7ACFFC4E20A01CA000886DC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ACFFC2520A01C9E00886DC8 /* LSTJavaScriptCoreTest */;
+			targetProxy = 7ACFFC4D20A01CA000886DC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7ACFFC2F20A01C9E00886DC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ACFFC3020A01C9E00886DC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ACFFC3720A01CA000886DC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ACFFC3820A01CA000886DC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ACFFC5320A01CA000886DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7ACFFC5420A01CA000886DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ACFFC5620A01CA000886DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 347A2EF453F66B26D2AB530B /* Pods-LSTJavaScriptCoreTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DF398U9WQX;
+				INFOPLIST_FILE = LSTJavaScriptCoreTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lst.mytest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7ACFFC5720A01CA000886DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3FFE716CE4B930AFD31E68 /* Pods-LSTJavaScriptCoreTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DF398U9WQX;
+				INFOPLIST_FILE = LSTJavaScriptCoreTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lst.mytest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7ACFFC5920A01CA000886DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C31B24CA2B31110431FC260 /* Pods-LSTJavaScriptCoreTestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LSTJavaScriptCoreTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.doubleSsusu.LSTJavaScriptCoreTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSTJavaScriptCoreTest.app/LSTJavaScriptCoreTest";
+			};
+			name = Debug;
+		};
+		7ACFFC5A20A01CA000886DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF5ED8AD27885AEECE26BEF /* Pods-LSTJavaScriptCoreTestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LSTJavaScriptCoreTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.doubleSsusu.LSTJavaScriptCoreTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSTJavaScriptCoreTest.app/LSTJavaScriptCoreTest";
+			};
+			name = Release;
+		};
+		7ACFFC5C20A01CA000886DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B10EDF09E8139B36873A74E /* Pods-LSTJavaScriptCoreTestUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LSTJavaScriptCoreTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.doubleSsusu.LSTJavaScriptCoreTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LSTJavaScriptCoreTest;
+			};
+			name = Debug;
+		};
+		7ACFFC5D20A01CA000886DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4547F7FDA156BE009EE95018 /* Pods-LSTJavaScriptCoreTestUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LSTJavaScriptCoreTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.doubleSsusu.LSTJavaScriptCoreTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LSTJavaScriptCoreTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ACFFC2120A01C9E00886DC8 /* Build configuration list for PBXProject "LSTJavaScriptCoreTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACFFC5320A01CA000886DC8 /* Debug */,
+				7ACFFC5420A01CA000886DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ACFFC5520A01CA000886DC8 /* Build configuration list for PBXNativeTarget "LSTJavaScriptCoreTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACFFC5620A01CA000886DC8 /* Debug */,
+				7ACFFC5720A01CA000886DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ACFFC5820A01CA000886DC8 /* Build configuration list for PBXNativeTarget "LSTJavaScriptCoreTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACFFC5920A01CA000886DC8 /* Debug */,
+				7ACFFC5A20A01CA000886DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ACFFC5B20A01CA000886DC8 /* Build configuration list for PBXNativeTarget "LSTJavaScriptCoreTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ACFFC5C20A01CA000886DC8 /* Debug */,
+				7ACFFC5D20A01CA000886DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7ACFFC3220A01C9E00886DC8 /* LSTJavaScriptCoreTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7ACFFC3320A01C9E00886DC8 /* LSTJavaScriptCoreTest.xcdatamodel */,
+			);
+			currentVersion = 7ACFFC3320A01C9E00886DC8 /* LSTJavaScriptCoreTest.xcdatamodel */;
+			path = LSTJavaScriptCoreTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7ACFFC1E20A01C9E00886DC8 /* Project object */;
+}
